@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: 'Shantell Sans', cursive;
+    color: rgb(227, 209, 209);
+    background: #da7f9c;
+    background: -webkit-linear-gradient(
+        rgba(143, 152, 229, 0.8),
+        rgba(196, 121, 145, 0.8)
+      ),
+      url('images/background.jpeg');
+    background: linear-gradient(rgba(149, 50, 47, 0.9), rgba(179, 63, 59, 0.9)),
+      url('images/background.jpeg');
+    /* The least supported option. */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  #heading {
+    text-align: center;
+    font-family: 'Gajraj One', sans-serif;
+    padding: 2%;
+    width: 80%;
+    height: 3%;
+    font-size: 3rem;
+  }
+  
+  #displayFavourites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  a:link {
+    color: rgb(218, 201, 201);
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(235, 183, 183);
+    text-decoration: none;
+  }
+  a:hover {
+    color: #100f0f2a;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  a:active {
+    color: rgb(218, 201, 201);
+    text-decoration: none;
+  }
+  
+  #displayFavourites {
+    flex-direction: row;
+    width: 90%;
+  }
+  
+  .favourite-hero-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    white-space: nowrap;
+    padding: 1%;
+    margin: 2%;
+    height: 20%;
+    background-color: rgb(218, 201, 201)a;
+    color: #0000002a;
+    border-radius: 17px;
+  }
+  
+  .favourite-hero-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 3px 3px lightcyan;
+  }
+  
+  .favourite-hero-card img {
+    width: 150px;
+    margin-top: 2%;
+    height: 150px;
+    border-radius: 100px;
+    box-shadow: 0 0 50px lightgrey;
+  }
+  
+  .del-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    padding: 3%;
+    font-size: 0.7em;
+    font-family: 'Belgrano', serif;
+    cursor: pointer;
+    border: 1px solid rgb(218, 201, 201);
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(223, 104, 99);
+  }
+  
+  .headernav {
+    display: flex;
+    padding: 10px;
+    background-color: #dcdaf04a;
+    justify-content: space-between;
+  }
+  .headernav span {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .headernav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  .headernav li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+  }
+  
