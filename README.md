@@ -6,3 +6,4 @@ this super hero hunter app has varius futures lis below...,
 2 - Information about super hero.
 3 - Add to favourites list.
 4 - Remove favourites list.
+kindly check my repository to know more about this project
